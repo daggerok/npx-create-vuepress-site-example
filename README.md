@@ -3,3 +3,6 @@
 ```bash
 cd docs ; npm i -E ; npm run dev
 ```
+
+## links
+* https://github.com/vuejs/vue-ssr-docs/blob/master/docs/.vuepress/config.js
