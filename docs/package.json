@@ -1,0 +1,23 @@
+{
+  "name": "create-vuepress-site-example",
+  "version": "0.0.1",
+  "description": "Testing npx create-vuepress-site",
+  "main": "README.md",
+  "authors": {
+    "name": "Maksim Kostromin",
+    "email": "daggerok@gmail.com"
+  },
+  "repository": "/create-vuepress-site-example",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "gh": "cross-env BASE='/npx-create-vuepress-site-example/' vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "15.3.0",
+    "cross-env": "7.0.3",
+    "vuepress": "1.8.2",
+    "vuepress-types": "0.8.1"
+  }
+}
