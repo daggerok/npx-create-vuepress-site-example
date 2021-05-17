@@ -1,0 +1,7 @@
+/en/               /
+/en/using-vue.html /
+/en/*              /en/:splat
+
+/ru/               /ru/
+/ru/using-vue.html /ru/using-vue/
+/ru/*              /ru/:splat
