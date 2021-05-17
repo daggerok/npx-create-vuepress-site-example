@@ -8,8 +8,8 @@ on:
       - docs/*
   pull_request:
     branches: [ master ]
-    paths:
-      - docs/*
+    #paths:
+    #  - docs/*
 jobs:
   github-pages:
     runs-on: ubuntu-latest
