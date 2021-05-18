@@ -1,5 +1,5 @@
 {
-  "name": "npx-create-vuepress-site-example",
+  "name": "npx-vuepress-example",
   "version": "0.0.1",
   "description": "Testing npx create-vuepress-site",
   "main": "README.md",
@@ -7,16 +7,22 @@
     "name": "Maksim Kostromin",
     "email": "daggerok@gmail.com"
   },
-  "repository": "/create-vuepress-site-example",
+  "repository": "https://github.com/daggerok/npx-vuepress-example/",
   "scripts": {
+    "clean": "rimraf src/.vuepress/dist",
     "dev": "vuepress dev src",
+    "prebuild": "npm run clean",
     "build": "vuepress build src --no-cache",
-    "gh": "cross-env BASE='/npx-create-vuepress-site-example/' npm run build"
+    "build-github-pages": "cross-env BASE='/npx-vuepress-example/' npm run build",
+    "build-github-pages-for-testing": "npm run build-github-pages -- --dest src/.vuepress/dist/npx-vuepress-example/",
+    "preserve-github-pages": "npm run build-github-pages-for-testing",
+    "serve-github-pages": "npx browser-sync start --config bs-config.js"
   },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "15.3.0",
     "cross-env": "7.0.3",
+    "rimraf": "2.7.1",
     "vuepress": "1.8.2",
     "vuepress-types": "0.9.4"
   }

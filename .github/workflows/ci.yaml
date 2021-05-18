@@ -27,7 +27,7 @@ jobs:
           node-version: 14
       - run: npm -v ; node -v
       - run: cd docs ; npm i -E
-      - run: cd docs ; npm run gh
+      - run: cd docs ; npm run build-github-pages
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
