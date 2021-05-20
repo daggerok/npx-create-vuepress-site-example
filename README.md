@@ -15,3 +15,4 @@ cd docs ; npm i -E ; npm run serve-github-pages
 ## links
 * https://github.com/vuejs/vue-ssr-docs/blob/master/docs/.vuepress/config.js
 * https://vuepress.github.io/reference/default-theme/config.html#sidebar
+* https://vuepress.vuejs.org/theme/default-theme-config.html#git-repository-and-edit-links
