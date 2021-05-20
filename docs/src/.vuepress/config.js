@@ -22,15 +22,13 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    repo: 'daggerok/npx-vuepress-example',
     docsDir: 'docs/src',
-    repo: 'https://github.com/daggerok/npx-vuepress-example',
     editLinks: true,
-    docsDir: '',
     lastUpdated: true,
     collapsable: false,
     locales: {
       '/': {
-        docsDir: 'docs/src',
         label: 'English',
         selectText: 'Languages',
         editLinkText: 'Edit me on GitHub',
@@ -53,7 +51,6 @@ module.exports = {
         label: 'Русский',
         selectText: 'Языки',
         editLinkText: 'Измени меня на GitHub',
-        docsDir: 'docs/src/ru',
         nav: [
           {
             text: 'Домой',
