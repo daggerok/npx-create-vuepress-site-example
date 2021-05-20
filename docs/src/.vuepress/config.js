@@ -22,7 +22,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    docsDir: 'docs',
+    docsDir: 'docs/src',
     repo: 'https://github.com/daggerok/npx-vuepress-example',
     editLinks: true,
     docsDir: '',
