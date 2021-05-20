@@ -22,10 +22,9 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    docsDir: 'docs',
-    repo: 'https://github.com/daggerok/create-vuepress-site-example',
+    docsDir: 'docs/src',
+    repo: 'daggerok/npx-vuepress-example',
     editLinks: true,
-    docsDir: '',
     lastUpdated: true,
     collapsable: false,
     locales: {
@@ -40,7 +39,7 @@ module.exports = {
           },
           {
             text: 'Using Vue',
-            link: '/using-vue.md'
+            link: '/using-vue.md
           }
         ],
         sidebar: [
