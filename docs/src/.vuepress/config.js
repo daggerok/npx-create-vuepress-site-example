@@ -22,6 +22,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    docsDir: 'docs',
     repo: 'https://github.com/daggerok/create-vuepress-site-example',
     editLinks: true,
     docsDir: '',
