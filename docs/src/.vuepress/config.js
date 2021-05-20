@@ -30,6 +30,7 @@ module.exports = {
     collapsable: false,
     locales: {
       '/': {
+        docsDir: 'docs/src',
         label: 'English',
         selectText: 'Languages',
         editLinkText: 'Edit me on GitHub',
@@ -52,6 +53,7 @@ module.exports = {
         label: 'Русский',
         selectText: 'Языки',
         editLinkText: 'Измени меня на GitHub',
+        docsDir: 'docs/src/ru',
         nav: [
           {
             text: 'Домой',
