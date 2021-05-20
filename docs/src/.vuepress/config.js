@@ -23,7 +23,7 @@ module.exports = {
    */
   themeConfig: {
     docsDir: 'docs',
-    repo: 'https://github.com/daggerok/create-vuepress-site-example',
+    repo: 'https://github.com/daggerok/npx-vuepress-example',
     editLinks: true,
     docsDir: '',
     lastUpdated: true,
